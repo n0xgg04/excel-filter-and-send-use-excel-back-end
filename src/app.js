@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import router from '../routes/index.js';
+import router from './routes/index.js';
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import morgan from 'morgan';
